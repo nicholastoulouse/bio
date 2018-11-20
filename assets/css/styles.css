@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	/* outline: 1px solid red;*/ */
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+    color: #777777;
+    background-color: #8d8d8d;
+    background-image: url("../images/full-bloom.png");
+  	overflow: auto;
+}
+hgroup {
+    float: left;
+    padding-bottom: .5em;
+}
+hgroup > h3 {
+    color: #FF5700;
+}
+#mainNav {
+    margin-top: .8em;
+    float: right;
+}
+nav {
+	height: 40px;
+}
+ul.nav {
+	display: inline;
+	vertical-align: middle;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+}
+li.page {
+	text-align: center;
+	display: inline-block;
+	font-family: Eczar, sans-serif;
+    font-size: 18px;
+	letter-spacing: .15em;
+	min-width: 96px;
+    margin-left: 2px;
+    border-right: 1px solid black;
+}
+.icon {
+	background-size: 35px;
+	background-repeat: no-repeat;
+	background-position: 2px;
+}
+main {
+    min-width: 980px;
+    min-height: calc(100vh - 2.5em -7em);
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 20px, 20px, 30px, 20px;
+	background-color: #ffffff;
+	border: 1px dotted #dddddd;
+	background-color: white;
+	overflow: hidden;
+}
+#portrait {
+    float: left;
+    width: 218px;
+    margin-right: 2em;
+    padding: .8em;
+}
+.bio {
+    width: calc(1280 - 218)px;
+    float: right;
+    padding: .5em;
+}
+.summary > p {
+	color: #777777;
+	font-size: 18px;
+	line-height: 1.4em;
+	margin-bottom: 1em;
+}
+.summary > p:last-of-type {
+    margin-left: .9em;
+}
+.brand {
+    margin-top: .2em;
+    margin-bottom: .35em;
+    letter-spacing: .05em;
+    color: #777777;
+}
+ul.nav a {
+    color: teal;
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+ul.nav li a:hover {
+    opacity: 0.5;
+}
+.divider {
+    width: 96%;
+    border: 1px dotted #777777;
+}
+.row {
+    width: calc(90vw - 1em);
+	height: 260px;
+	display: grid;
+	grid-template-areas: "a a a";
+	grid-gap: 15px;
+	grid-auto-columns: 290px;
+	margin-top: 1.25;
+	margin-bottom: 1.5em;
+}
+.project {
+    width: calc((90vw - 1em) / 3);
+    margin-left: 15px;
+	margin-right: 15px;
+}
